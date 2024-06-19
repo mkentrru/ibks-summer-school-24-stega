@@ -5,12 +5,74 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "stage-1",
+            "name": "stage-1-write",
+            "module": "stage-1",
             "type": "debugpy",
             "request": "launch",
-            "program": "run.py",
-            "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
-        }
+            "args": ["write"]
+        },
+        {
+            "name": "stage-1-read",
+            "module": "stage-1",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["read"]
+        },
+        {
+            "name": "stage-2-write",
+            "module": "stage-2",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["write"]
+        },
+        {
+            "name": "stage-2-read",
+            "module": "stage-2",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["read"]
+        },
+        {
+            "name": "stage-3-write",
+            "module": "stage-3",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["write"]
+        },
+        {
+            "name": "stage-3-read",
+            "module": "stage-3",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["read"]
+        },
+        {
+            "name": "stage-4-write",
+            "module": "stage-4",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["write"]
+        },
+        {
+            "name": "stage-4-read",
+            "module": "stage-4",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["read"]
+        },
+        {
+            "name": "stage-5-write",
+            "module": "stage-5",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["write"]
+        },
+        {
+            "name": "stage-5-read",
+            "module": "stage-5",
+            "type": "debugpy",
+            "request": "launch",
+            "args": ["read"]
+        },
     ]
 }
